@@ -1,7 +1,7 @@
 .main {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
@@ -87,7 +87,10 @@
   height: 360px;
   margin-left: -400px;
 }
-
+.oauthProviders{
+  display: flex;
+  flex-flow: column;
+}
 .center::after {
   background: var(--primary-glow);
   width: 240px;
@@ -275,4 +278,10 @@
   to {
     transform: rotate(0deg);
   }
+}
+
+.detailsContainer{
+  display: flex;
+  flex-flow: column;
+  margin-bottom: 10px;
 }
